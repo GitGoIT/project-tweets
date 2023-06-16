@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-tweets/static/css/main.8e166910.css",
-    "main.js": "/project-tweets/static/js/main.4f774a51.js",
-    "static/js/787.277e7bde.chunk.js": "/project-tweets/static/js/787.277e7bde.chunk.js",
+    "main.css": "/project-tweets/static/css/main.c34db57a.css",
+    "main.js": "/project-tweets/static/js/main.3747a39f.js",
+    "static/js/930.db9b29bd.chunk.js": "/project-tweets/static/js/930.db9b29bd.chunk.js",
     "index.html": "/project-tweets/index.html",
-    "main.8e166910.css.map": "/project-tweets/static/css/main.8e166910.css.map",
-    "main.4f774a51.js.map": "/project-tweets/static/js/main.4f774a51.js.map",
-    "787.277e7bde.chunk.js.map": "/project-tweets/static/js/787.277e7bde.chunk.js.map"
+    "main.c34db57a.css.map": "/project-tweets/static/css/main.c34db57a.css.map",
+    "main.3747a39f.js.map": "/project-tweets/static/js/main.3747a39f.js.map",
+    "930.db9b29bd.chunk.js.map": "/project-tweets/static/js/930.db9b29bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e166910.css",
-    "static/js/main.4f774a51.js"
+    "static/css/main.c34db57a.css",
+    "static/js/main.3747a39f.js"
   ]
 }

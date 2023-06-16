@@ -1,4 +1,4 @@
-import css from "./Tweets.module.css";
+// import css from "./Tweets.module.css";
 
 const Tweets = () => {
   return (

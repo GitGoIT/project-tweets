@@ -1,14 +1,22 @@
 import './App.module.css';
+import { lazy, Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+
 import Header from "./components/Header/Header";
 import HomePage from "./pages/HomePage/HomePage";
-import TweetsPage from "./pages/TweetsPage/TweetsPage";
+
+const TweetsPage = lazy(() => import("./pages/TweetsPage/TweetsPage"));
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <HomePage />
-      <TweetsPage />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="/tweets" element={<TweetsPage />} />
+        </Routes>
+      </Suspense>
     </div>
   );
 };

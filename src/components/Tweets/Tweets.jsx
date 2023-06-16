@@ -3,7 +3,7 @@
 const Tweets = () => {
   return (
       <div>
-          <p>TWEETS</p>
+          <p>TWEETS SECTION</p>
     </div>
   );
 };

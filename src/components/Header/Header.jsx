@@ -4,7 +4,7 @@ import Navigation from "../Navigation/Navigation";
 const Header = () => {
   return (
     <div>
-          <p>HEADER</p>
+          <p>HEADER SECTION</p>
           <Navigation />
     </div>
   );

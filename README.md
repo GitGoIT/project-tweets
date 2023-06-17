@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# PROJECT-TWEETS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is designed to provide a user interface with clickable cards that allow users to follow someone. The main functionality of the project includes displaying a collection of cards, each representing an individual person or entity. Each card consists of relevant information about the person, such as their tweets, profile picture, and followers. The key feature of this project is the ability to click on a "Follow" button within each card.
 
-## Available Scripts
+The project utilizes React components to render the cards dynamically based on the data provided. The data can be sourced from an API, a local JSON file, or any other data source. The cards are designed to be visually appealing and responsive, providing an intuitive user experience across different devices.
 
-In the project directory, you can run:
+This project can serve as a foundation for building social networking applications, influencer platforms, or any other scenario where users can discover and connect with people of interest. It can be easily extended and customized to fit specific requirements, such as integrating authentication or incorporating additional features.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/GitGoIT/project-tweets.git
 
-### `npm run build`
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+    cd tech-task
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
 
-### `npm run eject`
+3. Install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+Open http://localhost:3000 in a browser to view the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Folder Structure
 
-### Code Splitting
+Description of the project's folder structure:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+src/
+|- components/Arrow.jsx,Header.jsx,Navigation.jsx,Tweets.jsx
+|- pages/HomePage.jsx,TweetsPage.jsx
+|- styles/index.css
+|-shared/service-fubc.js
+|- App.js
+|- index.js
+public/
+|- index.html
+|- favicon.ico
+.gitignore
+package.json
+README.md
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+If you want to contribute to this project, please follow the contribution guidelines and submit a pull request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[No license] © Ivan Alimenko
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

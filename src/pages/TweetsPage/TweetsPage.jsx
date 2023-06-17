@@ -1,12 +1,12 @@
-// import css from "./TweetsPage.module.css";
+import css from "./TweetsPage.module.css";
 import Tweets from "../../components/Tweets/Tweets"
 
 const TweetsPage = () => {
   return (
-    <div>
+    <section className={css.section}>
       <Tweets />
-    </div>
+    </section>
   );
 };
-
 export default TweetsPage;
+

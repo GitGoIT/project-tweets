@@ -15,6 +15,9 @@
 
   transition: all 200ms ease-in ;
 }
+.navLink:global(.active) {  
+    color:#5CD3A8;
+}
 .navLine {
   font-family: 'Montserrat';
   font-weight: 500;

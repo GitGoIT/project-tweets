@@ -11,11 +11,11 @@
 .container {
     padding: 0 16px;
     width: 1280px;
-    height: 100px;
+    height: 120px;
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 700px;
+    gap: 660px;
 }
 .line {
     width: 100%;
@@ -27,5 +27,6 @@
 .logo {
     width: 190px;
     height: 50px;
+    margin-left: 40px;
 
 }

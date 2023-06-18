@@ -1,5 +1,6 @@
 .section {
     padding-top: 60px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -21,15 +22,14 @@
     gap: 30px;
 }
 .homeAvatar {
-    width: 200px;
+    width: 250px;
     margin-left: 100px;
 }
 .title {
     font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 42px;
     line-height: 24px;
     text-transform: uppercase;
-
-    color: rgba(0, 0, 0, 0.623);
+    color: rgba(0, 0, 0, 0.486);
 }

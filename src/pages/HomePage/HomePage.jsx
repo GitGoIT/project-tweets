@@ -1,5 +1,5 @@
 import css from "./HomePage.module.css";
-import Arrow from "../../components/Arrow/Arrow"
+import Arrow from "../../services/Arrow/Arrow"
 import homeAvatar from "../../images/avatar/avatar-home.png";
 import homePicture from "../../images/bg/home-bg.png";
 

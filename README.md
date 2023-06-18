@@ -52,10 +52,10 @@ Open http://localhost:3000 in a browser to view the project
 Description of the project's folder structure:
 
 src/
-|- components/Arrow.jsx,Header.jsx,Navigation.jsx,Tweets.jsx
+|- components/Header.jsx,Navigation.jsx,Tweets.jsx
 |- pages/HomePage.jsx,TweetsPage.jsx
 |- styles/index.css
-|-shared/service-fubc.js
+|-shared/service-func.js,Arrow.jsx,Loader.jsx
 |- App.js
 |- index.js
 public/

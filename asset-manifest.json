@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/project-tweets/static/css/main.b0a5ed3e.css",
-    "main.js": "/project-tweets/static/js/main.44c27693.js",
-    "static/css/134.d7225de7.chunk.css": "/project-tweets/static/css/134.d7225de7.chunk.css",
+    "main.css": "/project-tweets/static/css/main.f1e38b59.css",
+    "main.js": "/project-tweets/static/js/main.9d7232e6.js",
+    "static/css/134.372793a5.chunk.css": "/project-tweets/static/css/134.372793a5.chunk.css",
     "static/js/134.9a835762.chunk.js": "/project-tweets/static/js/134.9a835762.chunk.js",
-    "static/js/740.55047124.chunk.js": "/project-tweets/static/js/740.55047124.chunk.js",
+    "static/js/787.277e7bde.chunk.js": "/project-tweets/static/js/787.277e7bde.chunk.js",
+    "static/js/740.8b35ed1c.chunk.js": "/project-tweets/static/js/740.8b35ed1c.chunk.js",
     "static/media/home-bg.png": "/project-tweets/static/media/home-bg.926b37dc5f56025c24dd.png",
     "static/media/avatar-home.png": "/project-tweets/static/media/avatar-home.9680382eb067948419a0.png",
     "static/media/card-bg.png": "/project-tweets/static/media/card-bg.032662a2a907475127d7.png",
     "index.html": "/project-tweets/index.html",
-    "main.b0a5ed3e.css.map": "/project-tweets/static/css/main.b0a5ed3e.css.map",
-    "main.44c27693.js.map": "/project-tweets/static/js/main.44c27693.js.map",
-    "134.d7225de7.chunk.css.map": "/project-tweets/static/css/134.d7225de7.chunk.css.map",
+    "main.f1e38b59.css.map": "/project-tweets/static/css/main.f1e38b59.css.map",
+    "main.9d7232e6.js.map": "/project-tweets/static/js/main.9d7232e6.js.map",
+    "134.372793a5.chunk.css.map": "/project-tweets/static/css/134.372793a5.chunk.css.map",
     "134.9a835762.chunk.js.map": "/project-tweets/static/js/134.9a835762.chunk.js.map",
-    "740.55047124.chunk.js.map": "/project-tweets/static/js/740.55047124.chunk.js.map"
+    "787.277e7bde.chunk.js.map": "/project-tweets/static/js/787.277e7bde.chunk.js.map",
+    "740.8b35ed1c.chunk.js.map": "/project-tweets/static/js/740.8b35ed1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0a5ed3e.css",
-    "static/js/main.44c27693.js"
+    "static/css/main.f1e38b59.css",
+    "static/js/main.9d7232e6.js"
   ]
 }

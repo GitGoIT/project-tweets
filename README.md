@@ -26,7 +26,7 @@ This project can serve as a foundation for building social networking applicatio
 2. Navigate to the project directory:
 
    ```bash
-    cd tech-task
+    cd project-tweets
 
    ```
 
